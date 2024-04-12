@@ -112,8 +112,9 @@ section{
 
   body{
     place-content:initial;
+    place-items: center;
   }
-  
+
   .cards-preview{
     max-width: 375px;
     grid-template-columns: 1fr;
