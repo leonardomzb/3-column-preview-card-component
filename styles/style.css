@@ -109,9 +109,15 @@ section{
 
 
 @media (max-width: 425px) {
+
+  body{
+    place-content:initial;
+  }
+  
   .cards-preview{
     max-width: 375px;
     grid-template-columns: 1fr;
+    height: auto;
   }
 
   .cards-preview div{
@@ -132,7 +138,7 @@ section{
 @media (min-width: 426px) and (max-width: 1023px){
   .cards-preview div{
     gap: 1.5rem;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
   }
 
   .car-description{
